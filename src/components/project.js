@@ -1,15 +1,9 @@
 import React from 'react';
 import Foot from './footer'
 
-function Project(){
+class Project extends React.Componenet{
 
-    return <div >
-      <button>Home</button>
-      <button>About</button>
-      <button>Resume</button>
-      <button>Projects</button>
-      <button>Contact</button>
-      </div>
+  render(){}
   }
 
 export default Project;
