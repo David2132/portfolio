@@ -8,6 +8,8 @@ import home from './components/home'
 import about from './components/about'
 import resume from './components/resume'
 import contact from './components/contact'
+import project from './components/project'
+
 
 const routing = (
     <Router>
@@ -16,6 +18,7 @@ const routing = (
             <Route exact path="/" component={home}/>
             <Route path='/about' component ={about}/>
             <Route path='/resume' component ={resume}/>
+            <Route path='/project' component = {project}/>
             <Route path='/contact' component ={contact}/>
 
         </div>

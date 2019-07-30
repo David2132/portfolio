@@ -26,7 +26,8 @@ class About extends React.Component {
         })
     }
     Action() {
-        console.log("hello")
+        alert("Email was sent!");
+
         Service.postMessage(this.state)
     }
     render() {

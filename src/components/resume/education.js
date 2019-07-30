@@ -45,10 +45,13 @@ class Education extends React.Component {
                     <tr>
                         <td></td>
                         <td>{data.Bachelors} • {data.Major} • {data.Location}
-                            <br>
-                            </br>
-                            {data.GPA}
-
+                            <div style = {{textIndent:'40pt'}}>
+                            Major GPA: {data.MGPA}
+                            </div>
+                           
+                            <div style = {{textIndent:'40pt'}}>
+                            Cumulative GPA: {data.GPA}
+                            </div>
                         </td>
                     </tr>
                 </tbody>

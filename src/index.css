@@ -136,3 +136,37 @@ h1 {
     width: 100%;
     text-align: center;
 }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width:20%;
+    height:20%;
+
+}
+
+  
+  
+.overlay {
+    position: absolute;
+    height:120pt;
+    width:120pt;
+    top: 50%;
+    background-color:gray;
+    opacity:0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+.overlay:hover {
+    /* position: ; */
+    height:120pt;
+    width:120pt;
+    background-color:gray;
+    opacity:0.5;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    padding-left: 5pt;
+    text-align: left
+ 
+}
