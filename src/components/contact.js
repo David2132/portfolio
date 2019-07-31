@@ -26,10 +26,9 @@ class About extends React.Component {
         })
     }
     Action() {
-        console.log('hello')
-        Service.postMessage(this.state).then(err =>{
-            console.log(err)
-        })
+        alert("Message was sent!")
+        Service.postMessage(this.state)
+        window.location.reload()
     }
     render() {
         const data = this.state

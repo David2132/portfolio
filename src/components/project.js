@@ -59,7 +59,7 @@ class project extends React.Component {
 
     return <div id=''>
       <Head />
-      <div style={{ textAlign: 'center', paddingTop: '90px', marginBottom: '48px' }}>
+      <div style={{ textAlign: 'center', paddingTop: '45px', marginBottom: '48px', font:'15px/24px "opensans-semibold", sans-serif' }}>
         CHECK OUT MY WORK
       </div>
 

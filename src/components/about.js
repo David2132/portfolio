@@ -21,7 +21,11 @@ class About extends React.Component {
                                 About Me:
                             </h1>
                             <p style={{ color: 'gray' }}>
-                            I am one of five kids. Before pursuing my degree in Computer Science, I was pursuing a Nursing Degree. After two years of nursing and going to clinicals, I had a realization that I cannot imagine myself being a nurse for the rest of my working life. My roommate and cousin pursued their degrees in Computer Science, so I decided give coding a try.  I instantly fell in love with coding. The first year of me pursuing a Computer Science Degree, I was able to test out of two classes and obtain an internship at a prestigious company, IBM. 
+                            I was born in New Orleans, Louisiana, but was raised in Bogaulsa, Louisiana. Before deciding to pursue a degree in computer science, I was pursuing an education in nursing.
+                             However, after two years of nursing school and being able to be a part of clincals, I realized being a nurse was not for me. With some inspiration from others, I tried coding 
+                             to see if it was a right match for me. I instantly fell in love with coding. With my new love for coding, I was able to study on my own and ace out of two classes (Something I 
+                             never imagined myself ever being able to do) and was able to obtain an internaship at a prestigious company, IBM, during my first year of computer science. I enjoy exercising, 
+                             cooking, playing video games, and eating. I am a very adventurous person and have been snowboarding, scubadiving, deep sea fishing, and many more!
                             </p>
                         </td>
                     </tr>
