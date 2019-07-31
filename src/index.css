@@ -100,7 +100,7 @@ input {
     padding-left: 20px
 }
 
-#resume span {
+#resume > span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
 }
@@ -163,10 +163,11 @@ h1 {
     height:120pt;
     width:120pt;
     background-color:gray;
-    opacity:0.5;
+    opacity:0.85;
     transform: translate(-50%, -50%);
     cursor: pointer;
     padding-left: 5pt;
-    text-align: left
+    text-align: left;
+    margin-top:20pt
  
 }

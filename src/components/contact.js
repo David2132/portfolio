@@ -26,9 +26,10 @@ class About extends React.Component {
         })
     }
     Action() {
-        alert("Email was sent!");
-
-        Service.postMessage(this.state)
+        console.log('hello')
+        Service.postMessage(this.state).then(err =>{
+            console.log(err)
+        })
     }
     render() {
         const data = this.state
@@ -46,7 +47,7 @@ class About extends React.Component {
                         <td style={{ paddingRight: '', paddingLeft: '10%' }}>
 
                             <p style={{ color: 'gray' }}>
-                                If you interested in getting in contact with me or have any questions please fill out the form below and I will try to get to your message as soon as possible.
+                                If you are interested in contacting me please fill out the form below and I will try to get to your message as soon as possible.
                             </p>
                         </td>
                     </tr>
@@ -112,7 +113,7 @@ class About extends React.Component {
             <div style={{textAlign:'center'}}>
             <Button style={{  marginBottom:'20%' }} onClick={() => this.Action()}>Submit</Button>
             </div>
-            <div style={{ textAlign: 'center'}}>
+            <div style={{ textAlign: 'center', marginBotttom:'30pt'}}>
                 <Foot />
             </div>
         </div>

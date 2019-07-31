@@ -19,7 +19,7 @@ class Resume extends React.Component {
                 <Experience/>
                 <Skill/>
                 <Award/>
-                <div style= {{textAlign:'center'}}>
+                <div style= {{textAlign:'center', marginBotttom:'30pt'}}>
                 <Foot/>
                 </div>
                 

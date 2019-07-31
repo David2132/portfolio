@@ -17,7 +17,7 @@ function Foot() {
             </li>
         </ul>
         <br></br>
-        <div style={{ color: 'gray' }}>
+        <div style={{ color: 'gray', paddingBottom:'10pt' }}>
             Portfolio @ 2019. Design and created by David D.
     </div>
     </footer>
