@@ -12,7 +12,7 @@ class About extends React.Component {
 
                             <img src={David} alt='David' style={{ borderRadius: '50%', width: '10%', marginLeft:'5%', float:'left' }}>
                             </img>
-                            <h1 id='emp' >
+                            <h1 id='emp' style={{    marginLeft: '22%'}} >
                                 About Me:
                             </h1>
                             <p style={{ color: 'gray', marginLeft:'22%', marginRight:'10%' }}>
