@@ -10,7 +10,7 @@ class About extends React.Component {
             <Head currentPath={this.props.location.pathname} />
            
 
-                            <img src={David} alt='David' style={{ borderRadius: '50%', width: '10%', marginLeft:'5%', float:'left' }}>
+                            <img src={David} alt='David' style={{ borderRadius: '50%', width: '10%', marginTop:'20pt', marginLeft:'5%', float:'left' }}>
                             </img>
                             <h1 id='emp' style={{    marginLeft: '22%'}} >
                                 About Me:
