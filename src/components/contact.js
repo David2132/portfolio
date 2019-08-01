@@ -16,6 +16,7 @@ class About extends React.Component {
             Text: String
         }
         this.handleChange = this.handleChange.bind(this)
+        this.Action = this.Action.bind(this)
     }
     handleChange(event) {
         let { name, value } = event.target
@@ -28,7 +29,13 @@ class About extends React.Component {
     Action() {
         alert("Message was sent!")
         Service.postMessage(this.state)
-        window.location.reload()
+        this.setState({
+            First_Name:'',
+            Last_Name:'',
+            Email:'',
+            Subject:'',
+            Text:''
+        })
     }
     render() {
         const data = this.state
