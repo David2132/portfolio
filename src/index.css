@@ -7,7 +7,7 @@ div {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-#home, #about, #contact {
+#home {
     height: 100vh
 }
 
