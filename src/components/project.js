@@ -23,7 +23,8 @@ class project extends React.Component {
         Github: null,
 
       },
-      Github: false
+      Github: false,
+      Link:false
 
     }
     this.toggle = this.toggle.bind(this)
@@ -36,10 +37,12 @@ class project extends React.Component {
   change(project) {
     var modal = true
     var Github = project.Github !== ''
+    var Link = project.Link !== ''
     this.setState({
       modal,
       project,
-      Github
+      Github,
+      Link
     })
   }
   componentDidMount() {
@@ -97,6 +100,9 @@ class project extends React.Component {
           <Popup project={this.state.project} />
         </ModalBody>
         <ModalFooter>
+        {this.state.Link ? <a href={this.state.project.Link}>
+            <Button color="primary">Link to Site</Button>{' '}
+          </a> : ''}
           {this.state.Github ? <a href={this.state.project.Github}>
             <Button color="primary">Github</Button>{' '}
           </a> : ''}
