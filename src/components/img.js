@@ -34,14 +34,13 @@ class Img extends React.Component {
     }
     render() {
         var image = Bird
-        var count = Math.random()
-        if (count < 0.2)
+        if (this.props.count < 0.2)
             image = dog
-        if (count >0.4)
+        if (this.props.count >0.4)
             image = pom
-        if (count > 0.6)
+        if (this.props.count > 0.6)
             image = coffee
-        if (count >0.8)
+        if (this.props.count >0.8)
             image = dog2
         if (this.state.project.Name === 'Employee Site 2')
             image = Rea 
@@ -55,7 +54,7 @@ class Img extends React.Component {
             image = Res
 
         return <div>
-           <img src={image} alt={this.state.project.Name} style={{ height: '120pt', width: '120pt',border:'1px solid #021a40' }}></img>
+           <img src={image} alt={this.state.project.Name} style={{ height: '120pt', width: '120pt',padding:'1px',backgroundColor:'#696969',border:'1px solid #021a40' }}></img>
                   <div className='overlay' onClick={() => {
                     this.change(this.state.project)
                   }}>

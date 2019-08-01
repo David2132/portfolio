@@ -24,7 +24,7 @@ class Experience extends React.Component {
 
         const data = this.state.data
         console.log(data)
-        return <div id='resume'>
+        return (<div id='resume'>
             <table id='Rtable'>
                 <tbody>
                     <tr>
@@ -59,7 +59,7 @@ class Experience extends React.Component {
 
                 </tbody>
             </table>
-        </div>
+        </div>)
     }
 }
 

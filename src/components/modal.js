@@ -11,11 +11,11 @@ class Popup extends React.Component{
         this.setState({project:this.props.project})
     }
     render(){
-        return <div>
+        return (<div>
             Created: {this.state.project.Date}
             <br></br>
             {this.state.project.Description}
-        </div>
+        </div>)
     }
 }
 

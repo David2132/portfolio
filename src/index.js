@@ -16,10 +16,10 @@ const routing = (
         <div>
            
             <Route exact path="/" component={home}/>
-            <Route path='/about' component ={about}/>
-            <Route path='/resume' component ={resume}/>
-            <Route path='/project' component = {project}/>
-            <Route path='/contact' component ={contact}/>
+            <Route path='/about' component={about}/>
+            <Route path='/resume' component={resume}/>
+            <Route path='/project' component={project}/>
+            <Route path='/contact' component={contact}/>
 
         </div>
     </Router>

@@ -11,42 +11,40 @@ div {
     height: 100vh
 }
 
-li {
+#Logo {
     display: inline;
-    color: white;
+    color: none;
     margin: 8px 28px;
 }
 
-li:hover {
-    color: orange;
+
+#Link:hover {
+    color: gray;
     text-decoration: underline;
     cursor: pointer;
+    font-weight: bold;
+}
+#Link {
+    font-weight: bold;
+
+    margin: 7%;
+    padding-top:10pt;
+    color: orange;;
+    font-size: 100%
 }
 
-ul {
-    margin-top: 0%;
-    padding: 0;
-    padding-top: 8pt;
-}
-
-#icon {
-    border-radius: 50%;
-    width: 30px;
-}
-
-#icon:hover {
-    background-color: orange;
-}
 
 #down {
     border-radius: 50%;
     width: 40px;
-    background-color: white
+    margin: 30pt;
+    
 }
 
 #down:hover {
     background-color: orange
 }
+
 
 #home>footer {
     position: fixed;
@@ -57,7 +55,8 @@ ul {
 }
 
 #emp {
-    color: white
+    color: white;
+    margin-left: 22%
 }
 
 input {
@@ -156,6 +155,8 @@ h1 {
     opacity:0;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top:20pt
+
   
 }
 .overlay:hover {

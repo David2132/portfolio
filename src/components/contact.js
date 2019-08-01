@@ -32,9 +32,9 @@ class About extends React.Component {
     }
     render() {
         const data = this.state
-        return <div id='contact' style={{ backgroundColor: '#2B2B2B', backgroundSize: 'cover' }}>
+        return (<div id='contact' style={{ backgroundColor: '#2B2B2B', backgroundSize: 'cover' }}>
 
-            <Head />
+            <Head currentPath={this.props.location.pathname} />
 
             <table id="tabletxt" style={{ marginTop: '96px', marginLeft: '10%', width: '80%' }}>
                 <tbody>
@@ -112,10 +112,10 @@ class About extends React.Component {
             <div style={{textAlign:'center'}}>
             <Button style={{  marginBottom:'20%' }} onClick={() => this.Action()}>Submit</Button>
             </div>
-            <div style={{ textAlign: 'center', marginBotttom:'30pt'}}>
+            <div style={{ textAlign: 'center', marginBotttom: '30pt' }}>
                 <Foot />
             </div>
-        </div>
+        </div>)
     }
 }
 export default About

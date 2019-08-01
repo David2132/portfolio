@@ -23,7 +23,7 @@ class project extends React.Component {
         Github: null,
 
       },
-      Github:false
+      Github: false
 
     }
     this.toggle = this.toggle.bind(this)
@@ -56,10 +56,11 @@ class project extends React.Component {
 
   }
   render() {
+    console.log(this.props)
 
-    return <div id=''>
-      <Head />
-      <div style={{ textAlign: 'center', paddingTop: '45px', marginBottom: '48px', font:'15px/24px "opensans-semibold", sans-serif' }}>
+    return (<div id=''>
+      <Head currentPath={this.props.location.pathname} />
+      <div style={{ textAlign: 'center', paddingTop: '45px', marginBottom: '48px', font: '15px/24px "opensans-semibold", sans-serif' }}>
         CHECK OUT MY WORK
       </div>
 
@@ -69,7 +70,7 @@ class project extends React.Component {
             <tr key={Math.random()}>
               {data.map(project => (
                 <td className='container' key={project._id} style={{ height: '25%', width: '20%', marginLeft: '5pt', paddingTop: '40pt' }}>
-                  <Img project = {project} change={this.change}/>
+                  <Img count={Math.random()} project={project} change={this.change} />
                   {/* <img src={Bird} alt='Project' style={{ height: '120pt', width: '120pt' }}></img>
                   <div className='overlay' onClick={() => {
                     this.change(project)
@@ -93,17 +94,17 @@ class project extends React.Component {
       <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
         <ModalHeader toggle={this.toggle}>{this.state.project.Name}</ModalHeader>
         <ModalBody>
-        <Popup project={this.state.project}/>
+          <Popup project={this.state.project} />
         </ModalBody>
         <ModalFooter>
-          {this.state.Github?   <a href={this.state.project.Github}>
-          <Button color="primary">Github</Button>{' '}
-          </a>: ''}
-        
+          {this.state.Github ? <a href={this.state.project.Github}>
+            <Button color="primary">Github</Button>{' '}
+          </a> : ''}
+
           <Button color="secondary" onClick={this.toggle}>Cancel</Button>
         </ModalFooter>
       </Modal>
-    </div>
+    </div>)
   }
 }
 

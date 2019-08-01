@@ -11,9 +11,9 @@ import Foot from './footer'
 
 class Resume extends React.Component {
     render() {
-        return <div style={{ height: '100vh' }}>
+        return (<div style={{ height: '100vh' }}>
                 
-                <Head/>
+                <Head currentPath={this.props.location.pathname} />
                 <Education/>
                 <Project/>
                 <Experience/>
@@ -23,7 +23,7 @@ class Resume extends React.Component {
                 <Foot/>
                 </div>
                 
-        </div>
+        </div>)
     }
 }
 export default Resume

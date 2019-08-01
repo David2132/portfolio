@@ -29,16 +29,17 @@ class home extends React.Component {
     }
     render() {
         if (this.state.isLoading)
-            return <div>
-                <h1 valign='center' id ='home' style={{ textAlign: 'center', backgroundImage: `url(${background}`, backgroundSize: 'cover', color: 'white' }}>
+            {return (<div>
+                <h1 valign='center' id='home' style={{ textAlign: 'center', backgroundImage: `url(${background}`, backgroundSize: 'cover', color: 'white' }}>
                     Please wait. Backend is on Heroku and takes time to run. Thank you!
             </h1>
-            </div>
-        else
-            return <div id="home" style={{ backgroundImage: `url(${background})`, textAlign: 'center', backgroundSize: 'cover' }}>
+            </div>)}
 
-                <Head />
-                <div style={{marginTop:'10%'}}>
+
+        return (<div id="home" style={{ backgroundImage: `url(${background})`, textAlign: 'center', backgroundSize: 'cover' }}>
+
+            <Head currentPath={this.props.location.pathname} />
+            <div style={{ marginTop: '10%' }}>
                 <span style={{ padding: '70px 0' }}>
                     <b style={{ font: "80px/1.1em'opensans-bold', sans-serif", color: 'white' }}>
                         I'm David Duong.
@@ -52,10 +53,10 @@ class home extends React.Component {
                         and learn more <span id='emp'>about me</span>!
                </p>
                 </span>
-                
-                </div>
-                <Foot/>
+
             </div>
+            <Foot />
+        </div>)
     }
 }
 

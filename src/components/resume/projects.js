@@ -22,7 +22,7 @@ class Project extends React.Component {
     render() {
 
         const data = this.state.data
-        return <div id='resume'>
+        return (<div id='resume'>
             <table id='Rtable'>
                 <tbody>
                     <tr>
@@ -57,7 +57,7 @@ class Project extends React.Component {
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </div>)
     }
 }
 
