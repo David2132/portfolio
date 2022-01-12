@@ -28,12 +28,12 @@ class home extends React.Component {
         })
     }
     render() {
-        if (this.state.isLoading)
-            {return (<div>
-                <h1 valign='center' id='home' style={{ textAlign: 'center', backgroundImage: `url(${background}`, backgroundSize: 'cover', color: 'white' }}>
-                    Please wait. Backend is on Heroku and takes time to run. Thank you!
-            </h1>
-            </div>)}
+        // if (this.state.isLoading)
+        //     {return (<div>
+        //         <h1 valign='center' id='home' style={{ textAlign: 'center', backgroundImage: `url(${background}`, backgroundSize: 'cover', color: 'white' }}>
+        //             Please wait. Backend is on Heroku and takes time to run. Thank you!
+        //     </h1>
+        //     </div>)}
 
 
         return (<div id="home" style={{ backgroundImage: `url(${background})`, textAlign: 'center', backgroundSize: 'cover' }}>
