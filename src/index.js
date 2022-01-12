@@ -9,20 +9,23 @@ import about from './components/about'
 import resume from './components/resume'
 import contact from './components/contact'
 import project from './components/project'
+import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 
 const routing = (
-    <Router>
-        <div>
-           
-            <Route exact path="/" component={home}/>
-            <Route path='/about' component={about}/>
-            <Route path='/resume' component={resume}/>
-            <Route path='/project' component={project}/>
-            <Route path='/contact' component={contact}/>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Router>
+            <div>
+            
+                <Route exact path="/" component={home}/>
+                <Route path='/about' component={about}/>
+                <Route path='/resume' component={resume}/>
+                <Route path='/project' component={project}/>
+                <Route path='/contact' component={contact}/>
 
-        </div>
-    </Router>
+            </div>
+        </Router>
+    </BrowserRouter>
 )
 
 
