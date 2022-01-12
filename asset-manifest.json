@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.a6f7549c.chunk.css",
+    "main.js": "/Portfolio/static/js/main.baa74307.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.baa74307.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
+    "static/css/2.266e55a5.chunk.css": "/Portfolio/static/css/2.266e55a5.chunk.css",
+    "static/js/2.b3beff9b.chunk.js": "/Portfolio/static/js/2.b3beff9b.chunk.js",
+    "static/js/2.b3beff9b.chunk.js.map": "/Portfolio/static/js/2.b3beff9b.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.2caa0a2397ff6210a657ff69c81238a4.js": "/Portfolio/precache-manifest.2caa0a2397ff6210a657ff69c81238a4.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/Portfolio/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.a6f7549c.chunk.css.map": "/Portfolio/static/css/main.a6f7549c.chunk.css.map",
+    "static/media/1.PNG": "/Portfolio/static/media/1.f082aa91.PNG",
+    "static/media/Capture.PNG": "/Portfolio/static/media/Capture.ef16bfcf.PNG",
+    "static/media/Capture1.PNG": "/Portfolio/static/media/Capture1.ec84d12e.PNG",
+    "static/media/David.jpg": "/Portfolio/static/media/David.f6a2a2d3.jpg",
+    "static/media/addValidator.PNG": "/Portfolio/static/media/addValidator.e128db57.PNG",
+    "static/media/bird.jpg": "/Portfolio/static/media/bird.e95e0566.jpg",
+    "static/media/coffee.jpg": "/Portfolio/static/media/coffee.9c82da63.jpg",
+    "static/media/doggie.jpg": "/Portfolio/static/media/doggie.c5c54a0a.jpg",
+    "static/media/doggies.jpg": "/Portfolio/static/media/doggies.0b4e6524.jpg",
+    "static/media/doggies2.jpg": "/Portfolio/static/media/doggies2.c308c3e5.jpg",
+    "static/media/email.png": "/Portfolio/static/media/email.d5de1808.png",
+    "static/media/github-logo.png": "/Portfolio/static/media/github-logo.d3d683e8.png",
+    "static/media/header-background.jpg": "/Portfolio/static/media/header-background.395df93f.jpg",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.c6608843.png"
+  }
+}
