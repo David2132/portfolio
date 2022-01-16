@@ -17,10 +17,10 @@ class About extends React.Component {
                             </h1>
                             <p style={{ color: 'gray', marginLeft:'22%', marginRight:'10%' }}>
                                 I was born in New Orleans, Louisiana, but was raised in Bogaulsa, Louisiana. Before deciding to pursue a degree in computer science, I was pursuing an education in nursing.
-                                 However, after two years of nursing school and being able to be a part of clincals, I realized being a nurse was not for me. With some inspiration from others, I tried coding
-                                 to see if it was a right match for me. I instantly fell in love with coding. With my new love for coding, I was able to study on my own and ace out of two classes (Something I
-                                 never imagined myself ever being able to do) and was able to obtain an internaship at a prestigious company, IBM, during my first year of computer science. I enjoy exercising,
-                                 cooking, playing video games, and eating. I am a very adventurous person and have been snowboarding, scubadiving, deep sea fishing, and many more!
+                                 However, after two years of nursing school and doing practical work at the hospital, I realized being a nurse was not for me. With some inspiration from others, I tried coding
+                                 to see if it was a right match for me. I instantly fell in love with coding. With my new love for coding, I was able to get an internship at IBM, work part time at a start up company, graduate in computer science, 
+                                 and get a full time position working at the NASA Johnson Space Center within two years of changing my major. I enjoy exercising,
+                                 cooking, playing video games, and eating. I am a very adventurous person and have been snowboarding, scuba diving, deep sea fishing, and many more!
                             </p>
                  
             <footer>

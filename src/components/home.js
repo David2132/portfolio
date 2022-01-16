@@ -45,9 +45,9 @@ class home extends React.Component {
                         I'm David Duong.
                </b>
                     <p style={{ fontSize: "50px/1.9em 'librebaskerville-regular', serif", color: 'grey' }}>
-                        I am a <span id='emp'>soon</span> to be graduating student <br></br>
-                        from  <span id='emp'>University of Lousiana at Lafayette </span>with
-                    <br></br> experience in <span id='emp'>numerous coding languages</span>!
+                        I am a <span id='emp'>software engineer</span> working at the  <br/><span id='emp'>NASA Johnson Space Center.</span><br></br>
+                        I <span id='emp'>graduated</span> from  <span id='emp'>University of Lousiana at Lafayette </span>
+                    <br></br> with a bachelors in <span id='emp'>Computer Science</span>!
                     <br></br>
                         Let's <span id='emp'>checkout my site </span>
                         and learn more <span id='emp'>about me</span>!
